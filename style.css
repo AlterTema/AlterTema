@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.generalblock {
+    width: 1600px;
+    padding: 25px 231px 24px 227px;
+    border: solid 1px #ececec;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.text {
+    width: 94px;
+    height: 27px;
+    margin: 17px 36.7px 7px 12.3px;
+    font-family: Lato;
+    font-size: 27px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.68px;
+    text-align: center;
+}
+
+span:first-child {
+    color: #222222;
+}
+
+span:last-child {
+    color: #f16d7f;
+    font-weight: bold;
+
+}
+
+.input {
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+}
+
+button {
+    position: relative;
+    left: -28px;
+    top: 3px;
+    border: solid 1px white;
+    background-color: white;
+}
+
+
+input[type=text2] {
+    height: 38px;
+    width: 317px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.29;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #a4a4a4;
+    padding-left: 16px;
+}
+
+input[type=text3] {
+    height: 38px;
+    width: 23px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.29;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #a4a4a4;
+    padding-left: 16px;
+}
+
+.shop {}
+
+
+
+
+.browse {
+    width: 87px;
+    height: 38px;
+    text-align: center;
+    border: solid 1px #e6e6e6;
+    background-image: linear-gradient(to bottom, #f9f9f9, #f5f5f5);
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.7;
+    letter-spacing: 0.35px;
+    color: #222222;
+}
+
+.MyAccount {
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    border: solid 1px #e6e6e6;
+    background-color: #f16d7f;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.7;
+    letter-spacing: 0.35px;
+    color: #ffffff;
+    margin-left: 26px;
+}
+
+
+
+.basket {
+    margin-left: 231px;
+
+}
+
+.menu {
+    width: 1600px;
+    height: 51px;
+    padding: 18px 383px 19px 460px;
+    background-color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+table2 {
+    border-spacing: 7px 11px;
+}
+
+.menu2 {
+    display: flex;
+    align-items: flex-start;
+    width: 1600px;
+    height: 51px;
+    padding: 18px 460px;
+    background-color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.box {
+
+    display: inline-block;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.MENU {
+    margin-left: 460px;
+    margin-top: 18px;
+}
+
+.menutext {
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+}
+
+
+.mangrey {
+    background-color: #e8e8e8;
+}
+
+.tex {
+    text-align: left
+}
+
+
+.greyman {
+    position: relative;
+    width: 100%;
+    padding: 0px 444px;
+    background-color: #e8e8e8;
+    max-height: 625px;
+
+}
+
+h2 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    padding: 0px 230px;
+    width: 494px;
+    height: 128px;
+    font-family: Lato;
+    font-size: 59.9px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #222222;
+}
+
+.Brad {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    padding: 0px 230px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #222222;
+
+}
+
+.project_parent {
+    display: flex;
+    margin-top: 98px;
+    position: relative;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.project_item_margin {
+    margin-right: 32px;
+}
+
+.pictures {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.123 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    padding: 0px 500px;
+    width: 494px;
+    height: 128px;
+    font-family: Lato;
+    font-size: 59.9px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #222222;
+}
+}
+
+.321 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.582 {
+    color: #f16d7f;
+    font-size: 40px;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+    margin-top: 65px;
+    max-width: 1140px;
+    margin: 0px 0px 0px 230px;
+
+}
+
+.img2 {
+    height: 261px;
+    width: 560px;
+}
+
+style {}
+
+.qwe {}
+
+.mon {
+    margin-top: 20px;
+}
+
+.bo {
+    margin-top: 20px;
+}
+
+li {
+    list-style-type: none
+}
+
+.FeturedItems {
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 1.8;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #222222;
+    width: 1690px;
+    margin-top: 99px;
+
+}
+
+.FeturedItems2 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.35px;
+    color: #9f9f9f;
+    width: 1690px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+   
+  
+}
+
+.table3 {
+    max-width: 1px;
+    margin: 59px 232px 0px 262px;
+}
+
+.shopimg {
+    margin-right: 20px;
+    width: 259px;
+    height: 279px;
+    margin-bottom: 20px;
+}
