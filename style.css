@@ -190,8 +190,9 @@ table2 {
 }
 
 .MENU {
-    margin-left: 460px;
-    margin-top: 18px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menutext {
