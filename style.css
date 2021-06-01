@@ -81,6 +81,18 @@ span3:last-child {
     margin-left: -65px;
 }
 
+span4:first-child {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span4:last-child {
+    font-size: 30px;
+
+    color: #f16d7f;
+}
+
 .input {
     border: solid 1px #e6e6e6;
     background-color: #ffffff;
@@ -176,7 +188,7 @@ input[type=text3] {
 
 .basket2 {
     margin-left: 695px;
-    margin-top: 78px;
+    margin-top: -78px;
 
 }
 
@@ -901,9 +913,8 @@ mega-flex: last-of-type {
 
 .item-link {
     display: block;
-    width: 263px;
+    /* width: 263px; */
     text-decoration: none;
-
 }
 
 
@@ -939,7 +950,7 @@ mega-flex: last-of-type {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-        max-width: 1140px;
+    max-width: 1140px;
 }
 
 .item-box {
@@ -949,19 +960,24 @@ mega-flex: last-of-type {
 .item:hover {
     box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
 }
-.item:hover .add-box{
+
+.item:hover .add-box {
     display: flex;
 }
 
-.item:hover .item-img {
+.suit:hover .item-img {
     filter: brightness(50%);
 
 }
-.item{position: relative;
-margin-bottom: 40px;}
+
+.item {
+    position: relative;
+    margin-bottom: 40px;
+}
 
 .item-img {
-    width: 100%;}
+    width: 100%;
+}
 
 
 
@@ -988,14 +1004,164 @@ margin-bottom: 40px;}
     text-decoration: none;
     border: 1px solid #000;
     border-color: white;
-  
+
 }
+
 .add:hover {
     box-shadow: 0 0 10px #fff;
-    
+
 }
 
 .container2 {
     margin-top: 99px;
 
+}
+
+
+.item:hover .item-img {
+    filter: brightness(50%);
+
+}
+
+
+
+.item-img2 {
+    max-height: 541px;
+}
+
+.left:hover .item-img2 {
+    filter: brightness(50%);
+
+}
+
+.boxbox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+    margin-top: 65px;
+    margin-left: 230px;
+    max-width: 1264px;
+    /* margin: 0px 0px 0px 72px; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    max-width: 1140px;
+}
+
+.add-text2 {
+    color: black;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+
+
+
+.MyAccoun2t {
+     width: 168px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Lato;
+    font-size: 14px;
+    /* line-height: 2.7; */
+    /* letter-spacing: 0.35px; */
+     color: #000000; 
+    /* margin: 30px; */
+    position: absolute;
+    margin-top: -513px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.left {
+    margin: 20px 0 0 0;
+}
+
+.MyAccoun3t {
+       width: 202px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Lato;
+    font-size: 14px;
+    /* line-height: 2.7; */
+    /* letter-spacing: 0.35px; */
+     color: #000000; 
+    /* margin: 30px; */
+    position: absolute;
+    margin-top: -221px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.MyAccoun4t {
+   width: 186px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Lato;
+    font-size: 14px;
+    /* line-height: 2.7; */
+    /* letter-spacing: 0.35px; */
+     color: #000000; 
+    /* margin: 30px; */
+    position: absolute;
+    margin-top: -229px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.MyAccoun5t {
+       width: 186px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Lato;
+    font-size: 14px;
+    /* line-height: 2.7; */
+    /* letter-spacing: 0.35px; */
+     color: #000000; 
+    /* margin: 30px; */
+    position: absolute;
+    margin-top: -504px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.MyAccount-text {
+ height: 70px;
+    width: 163px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -9px;}
+
+.MyAccoun3t-text {
+height: 70px;
+    width: 184px;
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-bottom: -9px;
+}
+
+.MyAccoun4t-text {
+    height: 70px;
+    width: 184px;
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-bottom: -9px;
+
+}
+
+.MyAccoun5t-text {
+       height: 70px;
+    width: 184px;
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-bottom: -9px;
 }
