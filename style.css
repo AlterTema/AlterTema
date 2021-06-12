@@ -508,7 +508,7 @@ table {
   height: 587px;
 }
 .sea2 {
-  margin-left: 230px;
+  margin-left: 138px;
   margin-top: 87px;
   position: absolute;
 }
@@ -522,7 +522,7 @@ table {
   letter-spacing: 0.4px;
   text-align: left;
   color: #222224;
-  margin-left: 358.2px;
+  margin-left: 271.2px;
   padding-top: 95px;
 }
 .sea4 {
@@ -1101,7 +1101,7 @@ table {
 }
 .sea5 {
   position: absolute;
-  margin-left: 359px;
+  margin-left: 272px;
   /* margin-top: 208px; */
   font-family: Lato;
   font-size: 16px;
