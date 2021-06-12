@@ -116,6 +116,18 @@ span8:last-child {
   font-weight: 300;
   color: #6f6e6e;
 }
+span9:first-child {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+}
+span9:last-child {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f16d7f;
+}
 .input {
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
@@ -1796,9 +1808,67 @@ datalist {
 }
 .prd_heading213 {
   background-color: #f5f3f3;
-  width: 360px;
   height: 214px;
+  text-align: right;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-end;
 }
 .item_parametr2 {
   width: 325px;
+}
+.basket3 {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1140px;
+  justify-content: center;
+  margin-bottom: 113px;
+  margin-top: 17px;
+}
+#icon4 {
+  align-items: center;
+  text-decoration: none;
+}
+.MyAccount4 {
+  width: 212px;
+  height: 48px;
+  text-align: center;
+  border: solid 1px #e6e6e6;
+  background-color: #f16d7f;
+  display: table-cell;
+  vertical-align: middle;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.7;
+  letter-spacing: 0.35px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.prd_heading_text1 {
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: normal;
+  color: #4a4a4a;
+  margin-right: 50px;
+  margin-top: 41px;
+}
+.prd_heading_text2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  margin-right: 52px;
+  margin-top: 15px;
+}
+.color_size_line3 {
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+  width: 210px;
+  margin-left: 56px;
+  margin-top: 14px;
 }
