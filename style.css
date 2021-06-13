@@ -128,6 +128,18 @@ span9:last-child {
   font-weight: bold;
   color: #f16d7f;
 }
+span10:first-child {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  color: #222222;
+}
+span10:last-child {
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: normal;
+  color: #ff0d0d;
+}
 .input {
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
@@ -566,6 +578,7 @@ table {
   color: #ffffff;
   margin-top: -5px;
   margin-left: -6px;
+  cursor: pointer;
 }
 .generalblock2 {
   width: 1600px;
@@ -1542,6 +1555,17 @@ table {
   height: 14px;
   width: 8px;
 }
+.accordion_checkout:after {
+  color: #6f6e6e;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active_checkout:after {
+  color: #ef5b70;
+  height: 14px;
+  width: 8px;
+}
 .panel {
   background-color: white;
   max-height: 0;
@@ -1726,6 +1750,7 @@ datalist {
   width: 144px;
   height: 35px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .cube {
   color: blue;
@@ -1778,6 +1803,7 @@ datalist {
   height: 45px;
   margin-bottom: 20px;
   padding: 10px;
+  cursor: pointer;
 }
 .ship_choosen3 {
   border: solid 1px #eaeaea;
@@ -1805,6 +1831,7 @@ datalist {
   font-size: 11px;
   font-weight: bold;
   color: #4a4a4a;
+  cursor: pointer;
 }
 .prd_heading213 {
   background-color: #f5f3f3;
@@ -1871,4 +1898,164 @@ datalist {
   width: 210px;
   margin-left: 56px;
   margin-top: 14px;
+}
+.footercheckout {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.accordion_checkout {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-family: Lato;
+  font-size: 14px;
+  color: #ef5b70;
+  border-block-end: solid 1px #ebebeb;
+  color: #222222;
+}
+.panel_checkout {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accord_text_checkout {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  color: #6f6e6e;
+  text-decoration: none;
+  line-height: 2.36;
+}
+.flex_checkout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 428px;
+}
+.left_checkout {
+  position: relative;
+}
+.right_checkout {
+  position: relative;
+  padding-left: 348px;
+}
+.left_checkout_text {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #222222;
+  margin-top: 37px;
+}
+.left_checkout_text2 {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #b3b2b2;
+  margin-top: 13px;
+  padding-bottom: 14px;
+}
+.checkout_choice {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  color: #222222;
+  margin-top: 18px;
+}
+.left_checkout_text3 {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #b3b2b2;
+}
+.left_checkout_text_2 {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #b3b2b2;
+  margin-top: 13px;
+  padding-bottom: 32px;
+}
+.left_checkout_button {
+  width: 180px;
+  height: 50px;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-top: 25px;
+}
+.checkbox_button {
+  cursor: pointer;
+}
+.right_checkout_text {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #222222;
+  margin-top: 37px;
+}
+.right_checkout_text2 {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #b3b2b2;
+  margin-top: 13px;
+  padding-bottom: 14px;
+}
+.form2 {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  color: #222222;
+}
+.input2 {
+  border: solid 1px #e6e6e6;
+  margin-top: 14px;
+  margin-bottom: 16px;
+  width: 390px;
+  height: 45px;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+.input3 {
+  border: solid 1px #e6e6e6;
+  margin-top: 14px;
+  width: 390px;
+  height: 45px;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+.button2 {
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+  width: 180px;
+  height: 50px;
+  left: 0px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.right_checkout_text3 {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  color: #ff0d0d;
+  margin-top: 22px;
 }
