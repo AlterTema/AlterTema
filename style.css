@@ -139,6 +139,7 @@ input[type=text2] {
   text-align: left;
   color: #a4a4a4;
   padding-left: 16px;
+  border: solid 1px #e6e6e6;
 }
 input[type=text3] {
   height: 38px;
