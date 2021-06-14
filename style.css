@@ -171,6 +171,7 @@ input[type=text3] {
   line-height: 2.7;
   letter-spacing: 0.35px;
   color: #222222;
+  cursor: pointer;
 }
 .MyAccount {
   width: 130px;
@@ -327,6 +328,7 @@ table2 {
   letter-spacing: 1px;
   text-align: left;
   color: #222222;
+  cursor: pointer;
 }
 .321 {
   font-size: 40px;
@@ -1352,6 +1354,9 @@ table {
   font-weight: normal;
   color: #c0c0c0;
 }
+.newarrivals2 {
+  margin-top: -20px;
+}
 .item-flex6 {
   display: flex;
   justify-content: space-evenly;
@@ -2360,4 +2365,15 @@ datalist {
   transform: rotate(45deg);
   border-left: 1px solid #e6e6e6;
   border-top: 1px solid #e6e6e6;
+}
+.img_button {
+  cursor: pointer;
+}
+.search_button:focus {
+  outline: none;
+}
+.item-flex7 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
